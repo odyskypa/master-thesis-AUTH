@@ -1,0 +1,6 @@
+ASTExtractorPath = 'C:/Users/Odyskypa/Desktop/idioms-metrics-readability/ASTExtractor/ASTExtractor-0.5.jar'
+ASTExtractorPropertiesPath = 'C:/Users/Odyskypa/Desktop/idioms-metrics-readability/ASTExtractor/ASTExtractor.properties'
+ASTExtractorPropertiesPathDetailed = 'C:/Users/Odyskypa/Desktop/idioms-metrics-readability/ASTExtractor/ASTExtractorDetailed.properties'
+data_folder_path = 'C:/Users/Odyskypa/Desktop/data/'
+data_test_folder_path = 'C:/Users/Odyskypa/Desktop/data1/'
+git_executable_path = 'C:/Program Files/Git/bin/git'
