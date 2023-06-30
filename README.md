@@ -9,14 +9,6 @@ was performed with pq-grams and cosine similarity algorithms which are two metho
 and the distance of sentences. Then the most representative source code changes of the resulting clusters were extracted and evaluated in order to be
 presented as the final results.
 
-#### Execution
-
-```bash
-pip install -r requirements.txt
-cd /idioms-metrics-readability/
-mvn install
-```
-
 #### Dataset Creation
 
 To create the dataset, we use the 900 most popular Java code repositories from GitHub based on 
