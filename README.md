@@ -39,7 +39,7 @@ After the preprocessing of the data, an initial clustering is taking place in or
 
 For the clustering of the source code changes, two distance matrices are calculated for each of the subsets that have been 
 created during the preclustering process. The comparison of source code changes is done using the algorithm pq-grams which is an approximation of the `tree
-edit distance (TED` and TfidfVectorizer which is a Vector Space Modelling technique. Then, `Agglomerative Hierarchical Clustering` is performed by using the combination of the aforementioned distance matrices and the selection of the optimal number of clusters is done using the metric average silhouette. From the resulting clusters, only the best ones are selected using a number of parameters (number_of_source_code_changes, cohesion, 
+edit distance (TED)` and TfidfVectorizer which is a Vector Space Modelling technique. Then, `Agglomerative Hierarchical Clustering` is performed by using the combination of the aforementioned distance matrices and the selection of the optimal number of clusters is done using the metric average silhouette. From the resulting clusters, only the best ones are selected using a number of parameters (number_of_source_code_changes, cohesion, 
 repositories_per_cluster). The above procedure is performed by executing the script `s6_cosine_distance_matrix_computation.py`, `s7_inserts_deletes_distance_matrix_computation.py` and `s8_clustering.py`.
 
 #### Source Code Changes Evaluation
