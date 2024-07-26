@@ -1,7 +1,7 @@
 # Master Thesis
 ## Electrical and Computer Engineering, Aristotle University of Thessaloniki, Greece
 ## Intelligent Systems & Software Engineering Labgroup ([ISSEL](https://issel.ee.auth.gr/))
-### Mining Source Code Changes Patterns from Open-Source Repositories 
+### Mining Source Code Change Patterns from Open-Source Repositories 
 ***
 
 #### System Design
